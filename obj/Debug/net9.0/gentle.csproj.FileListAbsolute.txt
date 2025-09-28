@@ -1,0 +1,14 @@
+C:\Users\RH Saimon\Downloads\New folder\nn\gentle\bin\Debug\net9.0\gentle.exe
+C:\Users\RH Saimon\Downloads\New folder\nn\gentle\bin\Debug\net9.0\gentle.deps.json
+C:\Users\RH Saimon\Downloads\New folder\nn\gentle\bin\Debug\net9.0\gentle.runtimeconfig.json
+C:\Users\RH Saimon\Downloads\New folder\nn\gentle\bin\Debug\net9.0\gentle.dll
+C:\Users\RH Saimon\Downloads\New folder\nn\gentle\bin\Debug\net9.0\gentle.pdb
+C:\Users\RH Saimon\Downloads\New folder\nn\gentle\obj\Debug\net9.0\gentle.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\RH Saimon\Downloads\New folder\nn\gentle\obj\Debug\net9.0\gentle.AssemblyInfoInputs.cache
+C:\Users\RH Saimon\Downloads\New folder\nn\gentle\obj\Debug\net9.0\gentle.AssemblyInfo.cs
+C:\Users\RH Saimon\Downloads\New folder\nn\gentle\obj\Debug\net9.0\gentle.csproj.CoreCompileInputs.cache
+C:\Users\RH Saimon\Downloads\New folder\nn\gentle\obj\Debug\net9.0\gentle.dll
+C:\Users\RH Saimon\Downloads\New folder\nn\gentle\obj\Debug\net9.0\refint\gentle.dll
+C:\Users\RH Saimon\Downloads\New folder\nn\gentle\obj\Debug\net9.0\gentle.pdb
+C:\Users\RH Saimon\Downloads\New folder\nn\gentle\obj\Debug\net9.0\gentle.genruntimeconfig.cache
+C:\Users\RH Saimon\Downloads\New folder\nn\gentle\obj\Debug\net9.0\ref\gentle.dll
