@@ -190,18 +190,39 @@ namespace gentle
 // }
 
 
+// using System;
+// namespace gentle
+// {
+// 	class Program
+// 	{
+// 		static void Main(string[] args)
+// 		{
+// 			int a = 5;
+// 			int b = 10;
+// 			int sum = a + b;
+// 			Console.WriteLine("The sum of " + a + " and " + b + " is: " + sum);
+			
+
+			
+// 		}
+// 	}
+// }
+
 using System;
-using System.CodeDom.Compiler;
 namespace gentle
 {
 	class Program
 	{
 		static void Main(string[] args)
 		{
-			int a = 5;
-			int b = 10;
-			int sum = a + b;
-			Console.WriteLine("The sum of " + a + " and " + b + " is: " + sum);
+			if (50 < 55)
+			{
+				Console.WriteLine("50 is less than 55");
+			}
+			else
+			{
+				Console.WriteLine("50 is not less than 55");					
+			}
 			
 
 			
