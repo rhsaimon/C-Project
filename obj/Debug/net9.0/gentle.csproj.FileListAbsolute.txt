@@ -12,3 +12,4 @@ C:\Users\RH Saimon\Downloads\New folder\nn\gentle\obj\Debug\net9.0\refint\gentle
 C:\Users\RH Saimon\Downloads\New folder\nn\gentle\obj\Debug\net9.0\gentle.pdb
 C:\Users\RH Saimon\Downloads\New folder\nn\gentle\obj\Debug\net9.0\gentle.genruntimeconfig.cache
 C:\Users\RH Saimon\Downloads\New folder\nn\gentle\obj\Debug\net9.0\ref\gentle.dll
+C:\Users\RH Saimon\Downloads\New folder\nn\gentle\obj\Debug\net9.0\gentle.sourcelink.json
