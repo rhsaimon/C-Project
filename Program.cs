@@ -75,138 +75,51 @@ namespace gentle
 */
 
 
-
-// using System;
-// namespace gentle
-// {
-// 	class Program
-// 	{
-// 		static void Main(string[] args)
-// 		{
-// 			float f1 = 35e3F;
-// 			double d1 = 12E4D;
-// 			Console.WriteLine(f1);
-// 			Console.WriteLine(d1);
-
-
-
-// 		}
-// 	}
-// }
-
-// type casting:
-
-
-// implicit casting:
-// using System;
-// namespace gentle
-// {
-// 	class Program
-// 	{
-// 		static void Main(string[] args)
-// 		{
-// 			int a = 4;
-// 			double b = a;
-// 			Console.WriteLine(b);
-
-// 		}
-// 	}
-// }
-
-// explicit casting:
-
-// using System;
-// namespace gentle
-// {
-// 	class Program
-// 	{
-// 		static void Main(string[] args)
-// 		{
-// 			double a = 4.55;
-// 			int b = (int)a;
-// 			Console.WriteLine(b);
-			
-// 		}
-// 	}
-// }
-
-
-// using System;
-// namespace gentle
-// {
-// 	class Program
-// 	{
-// 		static void Main(string[] args)
-// 		{
-// 			int myInt = 22;
-// 			double myDouble = 22.66;
-// 			bool myBool = false;
-// 			char myChar = 's';
-// 			string myString = "saimon";
-// 			Console.WriteLine(Convert.ToDouble(myInt));
-// 			Console.WriteLine(Convert.ToInt32(myDouble));
-// 			Console.WriteLine(Convert.ToString(myBool));
-// 			Console.WriteLine(Convert.ToString(myChar));
-// 			Console.WriteLine(Convert.ToChar(myString));	
-// 		}
-// 	}
-// }
-
-
-// using System;
-// namespace gentle
-// {
-// 	class Program
-// 	{
-// 		static void Main(string[] args)
-// 		{
-// 			Console.WriteLine("Enter your name:");
-// 			string name = Console.ReadLine();
-// 			Console.WriteLine("Hello " + name);
+/*
+using System;
+using System.CodeDom.Compiler;
+namespace gentle
+{
+	class Program
+	{
+		static void Main(string[] args)
+		{
+			int a = 5;
+			int b = 10;
+			int sum = a + b;
+			Console.WriteLine("The sum of " + a + " and " + b + " is: " + sum);
 			
 
 			
-// 		}
-// 	}
-// }
+		}
+	}
+}
 
 
+		}
+	}
+}
 
-// using System;
-// namespace gentle
-// {
-// 	class Program
-// 	{
-// 		static void Main(string[] args)
-// 		{
-// 			Console.WriteLine("Enter your number:");
-// 			int number = Convert.ToInt32(Console.ReadLine());
-// 			Console.WriteLine("Your number is: " + number);
-			
-
-			
-// 		}
-// 	}
-// }
+type casting:
 
 
-// using System;
-// namespace gentle
-// {
-// 	class Program
-// 	{
-// 		static void Main(string[] args)
-// 		{
-// 			int a = 5;
-// 			int b = 10;
-// 			int sum = a + b;
-// 			Console.WriteLine("The sum of " + a + " and " + b + " is: " + sum);
-			
+implicit casting:
+using System;
+namespace gentle
+{
+	class Program
+	{
+		static void Main(string[] args)
+		{
+			int a = 4;
+			double b = a;
+			Console.WriteLine(b);
 
-			
-// 		}
-// 	}
-// }
+		}
+	}
+}
+
+explicit casting:
 
 using System;
 namespace gentle
@@ -215,17 +128,288 @@ namespace gentle
 	{
 		static void Main(string[] args)
 		{
-			if (50 < 55)
-			{
-				Console.WriteLine("50 is less than 55");
-			}
-			else
-			{
-				Console.WriteLine("50 is not less than 55");					
-			}
+			double a = 4.55;
+			int b = (int)a;
+			Console.WriteLine(b);
+			
+		}
+	}
+}
+
+
+using System;
+namespace gentle
+{
+	class Program
+	{
+		static void Main(string[] args)
+		{
+			int myInt = 22;
+			double myDouble = 22.66;
+			bool myBool = false;
+			char myChar = 's';
+			string myString = "saimon";
+			Console.WriteLine(Convert.ToDouble(myInt));
+			Console.WriteLine(Convert.ToInt32(myDouble));
+			Console.WriteLine(Convert.ToString(myBool));
+			Console.WriteLine(Convert.ToString(myChar));
+			Console.WriteLine(Convert.ToChar(myString));	
+		}
+	}
+}
+
+
+using System;
+namespace gentle
+{
+	class Program
+	{
+		static void Main(string[] args)
+		{
+			Console.WriteLine("Enter your name:");
+			string name = Console.ReadLine();
+			Console.WriteLine("Hello " + name);
 			
 
 			
 		}
 	}
+}
+
+
+
+using System;
+namespace gentle
+{
+	class Program
+	{
+		static void Main(string[] args)
+		{
+			Console.WriteLine("Enter your number:");
+			int number = Convert.ToInt32(Console.ReadLine());
+			Console.WriteLine("Your number is: " + number);
+			
+
+			
+		}
+	}
+}
+
+
+using System;
+namespace gentle
+{
+	class Program
+	{
+		static void Main(string[] args)
+		{
+			int a = 5;
+			int b = 10;
+			int sum = a + b;
+			Console.WriteLine("The sum of " + a + " and " + b + " is: " + sum);
+			
+
+			
+		}
+	}
+}
+
+
+using System;
+namespace gentle
+{
+	class Program
+	{
+		static void Main(string[] args)
+		{
+			if (50 > 10)
+			{
+				Console.WriteLine("50 is greater than 10");
+			}
+			else
+			{
+				Console.WriteLine("50 is not greater than 10");
+			}
+			
+		}
+	}
+
+}
+
+
+using System;
+namespace gentle
+{
+	class Program
+	{
+		static void Main(string[] args)
+		{
+			if (50 > 10)
+			{
+				Console.WriteLine("50 is greater than 10");
+			}
+			else
+			{
+				Console.WriteLine("50 is not greater than");
+
+			}
+		}
+	}
+}
+
+
+
+using System;
+namespace gentle
+{
+	class Program
+	{
+		static void Main(string[] args)
+		{
+
+
+			Console.WriteLine(Math.Min(33, 55));
+			Console.WriteLine(Math.Max(33, 55));
+			
+			
+			
+		}
+	}
+
+}
+
+
+using System;
+namespace gentle
+{
+	class Program
+	{
+		static void Main(string[] args)
+		{
+
+			Console.WriteLine(Math.Sqrt(64));
+		
+		}
+	}
+
+}
+
+
+
+using System;
+namespace gentle
+{
+	class Program
+	{
+		static void Main(string[] args)
+		{
+
+			Console.WriteLine(Math.Abs(-54545));
+
+		}
+	}
+
+}
+
+
+using System;
+namespace gentle
+{
+	class Program
+	{
+		static void Main(string[] args)
+		{
+
+			Console.WriteLine(Math.Round(5.55));
+
+		}
+	}
+
+}
+
+
+using System;
+namespace gentle
+{
+	class Program
+	{
+		static void Main(string[] args)
+		{
+			string keyword = "Hello Mother Fucker";
+			Console.WriteLine(keyword);
+		}
+	}
+
+}
+
+
+
+using System;
+namespace gentle
+{
+	class Program
+	{
+		static void Main(string[] args)
+		{
+
+			string txt = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+			Console.WriteLine("the length of the text is:"+" "+txt.Length);
+
+			string txt = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+			Console.WriteLine($"length of the text is: {txt.Length}"); *string interpolation
+
+			string txt = "fjsklfjjkSNSSDJkjkkjGHGYU";
+			Console.WriteLine(txt.ToUpper());
+			Console.WriteLine(txt.ToLower());
+		
+
+		}
+	}
+
+}*/
+
+
+using System;
+namespace gentle
+{
+	class Program
+	{
+		static void Main(string[] args)
+		{
+			// string concatenation:
+
+			// string firstName = "Robiul Hasan";
+			// string lastName = "Saimon";
+			// string fullName = firstName + " " +lastName;
+			// Console.WriteLine(fullName);
+
+
+			// string firstName = "Robiul Hasan";
+			// string lastName = "Saimon";
+			// string fullName = string.Concat(firstName, " " ,lastName);
+			// Console.WriteLine(fullName);
+
+			// string interpolation:
+
+			// string firstName = "Robiul Hasan";
+			// string lastName = "Saimon";
+			// string fullName = $"The full name is: {firstName}{" "}{lastName}";
+			// Console.WriteLine(fullName);
+
+			// access strings: for index no,
+
+			// string myString = "Robiul Hasan Saimon";
+			// Console.WriteLine(myString[13]);
+			// Console.WriteLine(myString.IndexOf("H"));
+
+			string myString = "Robiul Hasan Saimon";
+			int charPos = myString.IndexOf("S");
+			string lastName = myString.Substring(charPos);
+			Console.WriteLine(lastName);
+
+
+
+		}
+	}
+
 }
