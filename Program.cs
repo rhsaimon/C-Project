@@ -939,7 +939,8 @@ namespace gentle
 	{
 		static void Main(string[] args)
 		{
-			string n = "868";
+			Console.Write("Enter the input:")
+		    string n = Convert.ToInt32(Console.ReadLine());
 			int sum = 1;
 			int i = 0;
 			while (i < n.Length)
@@ -952,7 +953,7 @@ namespace gentle
 		
 				
 	}
-}*/
+}
 
 using System;
 namespace gentle
@@ -965,24 +966,113 @@ namespace gentle
 			int i = 0;
 			int p = n.Length;
 			bool flag = false;
-			while (i <= p)
+			while (i < p/2)
 			{
-				if (n[i] == n[p - 1] && n[i + 1] == n[p - 2])
+				if (n[i] == n[p - i])
 				{
 					flag = true;
-					i++;
 				}
 			}
-			if (flag) {
+			if (flag)
+			{
 				Console.WriteLine("palindrome");
 			}
-			else {
+			else
+			{
 				Console.WriteLine("not Palindrome");
 			}
-		
-		} 
-		
-				
+
+		}
+
+
 	}
 }
+
+using System;
+namespace gentle
+{
+	class Program
+	{
+		static void Main(string[] args)
+		{
+			int i = 1;
+			int n = 10;
+
+			do
+			{
+				Console.WriteLine(i);
+				i++;
+			}
+			while (i <= n);
+
+
+
+		}
+		
+		
+
+	}
+}
+
+
+using System;
+namespace gentle
+{
+	class Program
+	{
+		static void Main(string[] args)
+		{
+			Console.WriteLine("Enter the no:");
+			int n = Convert.ToInt32(Console.ReadLine());
+			int i = 1;
+			int sum = 0;
+			do
+			{
+				sum += i;
+				i++;
+			}
+			while (i <= n);
+			Console.WriteLine(sum);
+				
+		}
+		
+		
+
+	}
+}*/
+
+
+using System;
+namespace gentle
+{
+	class Program
+	{
+		static void Main(string[] args)
+		{
+			Console.WriteLine("Enter the no:");
+			int n = Convert.ToInt32(Console.ReadLine());
+			int i = 2;
+			do
+			{
+				Console.WriteLine(i);
+				i += 2;
+
+				// if (i % 2 == 0)
+				// {
+				// 	Console.WriteLine(i);
+
+				// }
+				// i++;
+
+			}
+			while (i <= n);
+										
+				
+		}
+		
+		
+
+	}
+}
+
 
