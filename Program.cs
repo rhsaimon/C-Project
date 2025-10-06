@@ -1400,12 +1400,16 @@ class Program
 		// double d = f;
 		// Console.WriteLine($"{c} , {i} , {l} , {f} , {d}");
 
-		double d = 123.43;
-		float f = (float)d;
-		long l = (long)f;
-		int i = (int)l;
-		char c = (char)i;
-		Console.WriteLine($"{d}\n {f}\n{l}\n{i}\n{c}");
+		// double d = 123.43;
+		// float f = (float)d;
+		// long l = (long)f;
+		// int i = (int)l;
+		// char c = (char)i;
+		// Console.WriteLine($"{d} \n {f} \n{l}\n{i}\n");
+
+		double d = 3132.22;
+		int i = (int)d;
+		Console.WriteLine(i);
 
 		}
 }
