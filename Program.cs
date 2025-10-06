@@ -956,7 +956,7 @@ namespace gentle
 }
 
 using System;
-namespace gentle
+namespace gentle        doesnot work
 {
 	class Program
 	{
@@ -1039,7 +1039,7 @@ namespace gentle
 		
 
 	}
-}*/
+}
 
 
 using System;
@@ -1075,4 +1075,337 @@ namespace gentle
 	}
 }
 
+using System;
+namespace gentle
+{
+	class Program
+	{
+		static void Main(string[] args)
+		{
+			Console.WriteLine("Enter the no:");
+			int n = Convert.ToInt32(Console.ReadLine());
+			int i = 1;
+			int fact = 1;
+			do
+			{
+				fact *= i;
 
+				i++;
+
+			}
+			while (i <= n);
+			Console.WriteLine(fact);
+			
+			
+										
+				
+		}
+		
+		
+
+	}
+}
+
+
+using System;
+namespace gentle
+{
+	class Program
+	{
+		static void Main(string[] args)
+		{
+			Console.WriteLine("Enter the no:");
+			int n = Convert.ToInt32(Console.ReadLine());
+			int i = 1;
+			
+			do
+			{
+				Console.WriteLine(n +  " * " + i + " = " +( n*i));
+				i++;
+
+
+			}
+			while (i <= 10);
+			
+		
+			
+			
+										
+				
+		}
+		
+		
+
+	}
+}
+
+
+using System;
+namespace gentle
+{
+	class Program
+	{
+		static void Main(string[] args)
+		{
+			int a = 5;
+			int b = 6;
+			Console.WriteLine(a + b);
+			Console.WriteLine(a - b);
+			Console.WriteLine(a * b);
+			Console.WriteLine(a / b);
+			
+		}
+		
+		
+	}
+	
+}
+
+using System;
+namespace gentle
+{
+	class Program
+	{
+		static void Main(string[] args)
+		{
+			// string name = "Saimon";
+			// int age = 21;
+			// Console.WriteLine("Hello " + name + " your name is: " + age);
+
+			// int a = 5;
+			// int b = 6;
+			// Console.WriteLine($"Before swaping: a = {a} b = {b}");
+			// a = a + b;
+			// b = a - b;
+			// a = a - b;
+			// Console.WriteLine($"After swapig: a = {a} b = {b}");
+
+			// int n = 12;
+			// if (n > 0)
+			// {
+			// 	Console.WriteLine("Positive");
+			// }
+			// else if (n < 0)
+			// {
+			// 	Console.WriteLine("Nagative");
+			// }
+			// else
+			// {
+			// 	Console.WriteLine("Zero");
+			// }
+
+			// int a = 22;
+			// int b = 33;
+			// int c = 55;
+			// if (a > b)
+			// {
+			// 	Console.WriteLine("a is largest no");
+			// }
+			// else if (b > c)
+			// {
+			// 	Console.WriteLine("b is largest no");
+			// }
+			// else
+			// {
+			// 	Console.WriteLine("c is largest no");
+			// }
+
+			// Console.WriteLine("Enter a no:");
+			// int n = Convert.ToInt32(Console.ReadLine());
+			// if (n % 2 == 0)
+			// {
+			// 	Console.WriteLine("Even");
+			// }
+			// else
+			// {
+			// 	Console.WriteLine("Odd");
+			// }
+
+			// Console.WriteLine("Enter a Marks:");
+			// int marks = Convert.ToInt32(Console.ReadLine());
+			// if (marks > 80)
+			// {
+			// 	Console.WriteLine("A");
+			// }
+			// else if (marks < 80)
+			// {
+			// 	Console.WriteLine("B");
+			// }
+			// else if (marks < 70)
+			// {
+			// 	Console.WriteLine("c");
+			// }
+			// else if (marks < 60)
+			// {
+			// 	Console.WriteLine("D");
+			// }
+			// else
+			// {
+			// 	Console.WriteLine("F");
+			// }
+
+			// int Day = Convert.ToInt32(Console.ReadLine());
+			// switch (Day)
+			// {
+			// 	case 1:
+			// 		Console.WriteLine("Saturday");
+			// 		break;
+			// 	case 2:
+			// 		Console.WriteLine("Sunday");
+			// 		break;
+			// 	case 3:
+			// 		Console.WriteLine("Monday");
+			// 		break;
+			// 	case 4:
+			// 		Console.WriteLine("Tuesday");
+			// 		break;
+			// 	case 5:
+			// 		Console.WriteLine("Wednesday");
+			// 		break;
+			// 	case 6:
+			// 		Console.WriteLine("Thursday");
+			// 		break;
+			// 	case 7:
+			// 		Console.WriteLine("Friday");
+			// 		break;
+			// 	default:
+			// 		Console.WriteLine("invalid day");
+			// 		break;
+			// 	}
+
+			// char ch = 'o';
+			// switch (ch)
+			// {
+			// 	case 'a':
+			// 	case 'e':
+			// 	case 'o':
+			// 	case 'i':
+			// 	case 'u':
+			// 		Console.WriteLine($"{ch} is a vowel");
+			// 		break;
+			// 	default:
+			// 		Console.WriteLine($"{ch} is a Consonent");
+			// 		break;
+
+			// }
+
+			// int a =  Convert.ToInt32(Console.ReadLine());
+			// int b =  Convert.ToInt32(Console.ReadLine());
+
+			// for (int n = 1; n <= 4; n++)
+			// {
+
+
+			// 	switch (n)
+			// 	{
+			// 		case 1:
+			// 			Console.WriteLine(a + b);
+			// 			break;
+			// 		case 2:
+			// 			Console.WriteLine(a * b);
+			// 			break;
+			// 		case 3:
+			// 			Console.WriteLine(a - b);
+			// 			break;
+			// 		case 4:
+			// 			float f =(float) a / b;
+			// 			Console.WriteLine(f);
+			// 			break;
+
+			// 	}
+
+			// }
+
+
+			// int n = 5;
+			// int i = 1;
+			// int sum = 0;
+			// while (i <= n)
+			// {
+			// 	sum += i;
+			// 	i++;
+			// }
+			// Console.WriteLine(sum);
+
+
+			// int n = 1234;
+			// int i = 0;
+			// int reverse = 0;
+			// while (i < n)
+			// {
+			// 	int digit = n % 10;
+			// 	reverse =(reverse * 10) + digit;
+			// 	n = n / 10;
+			// }
+			// Console.WriteLine(reverse);
+
+			// string n = "12234";
+			// int i = 1;
+			// int cnt = 0;
+			// while (i <= n.Length)
+			// {
+			// 	cnt = i;
+			// 	i++;
+
+			// }
+			// Console.WriteLine(cnt);
+			
+		}
+		
+		
+	}
+	
+}
+
+using System;
+
+class Program
+{
+    static void Main(string[] args)
+    {
+        int num;
+
+		do
+		{
+			Console.Write("Enter a positive number: ");
+			num = Convert.ToInt32(Console.ReadLine());
+
+			if (num <= 0)
+			{
+				Console.WriteLine("❌ That's not a positive number. Try again!");
+			}
+			else
+			{
+				Console.WriteLine("no is positive");
+			}
+		
+
+        } while (num <= 0); 
+
+			Console.WriteLine($"✅ Great! You entered a positive number: {num}");
+		}
+}*/
+
+
+using System;
+
+class Program
+{
+	static void Main(string[] args)
+	{
+		// char c = 'A';
+		// int i = c;
+		// long l = i;
+		// float f = l;
+		// double d = f;
+		// Console.WriteLine($"{c} , {i} , {l} , {f} , {d}");
+
+		double d = 123.43;
+		float f = (float)d;
+		long l = (long)f;
+		int i = (int)l;
+		char c = (char)i;
+		Console.WriteLine($"{d}\n {f}\n{l}\n{i}\n{c}");
+
+		}
+}
