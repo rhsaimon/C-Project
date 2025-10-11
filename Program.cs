@@ -1372,7 +1372,7 @@ class Program
 
 			if (num <= 0)
 			{
-				Console.WriteLine("❌ That's not a positive number. Try again!");
+				Console.WriteLine("That's not a positive number. Try again!");
 			}
 			else
 			{
@@ -1382,9 +1382,9 @@ class Program
 
         } while (num <= 0); 
 
-			Console.WriteLine($"✅ Great! You entered a positive number: {num}");
+			Console.WriteLine($"Great! You entered a positive number: {num}");
 		}
-}*/
+}
 
 
 using System;
@@ -1409,7 +1409,120 @@ class Program
 
 		double d = 3132.22;
 		int i = (int)d;
-		Console.WriteLine(i);
+		char c = (char)d;
+		Console.WriteLine(c);
 
 		}
 }
+
+
+using System;
+
+class Program
+{
+	static void Main(string[] args)
+	{
+		string n = "Rh";
+		string m = "Saimon";
+		// Console.WriteLine($"My full name is: {n} {m}");
+
+		string s = n + m;
+		Console.WriteLine(s.Substring(5,2));
+
+		// int charpos = s.IndexOf("i");
+		//  Console.WriteLine(charpos);
+
+
+		}
+}*/
+
+using System;
+public class HelloWorld
+{
+	public static void Main(string[] args)
+	{
+		// Console.WriteLine("Enter the row no:");
+		// int row = int.Parse(Console.ReadLine());
+
+		// Console.WriteLine("Enter the colum no:");
+		// int col = int.Parse(Console.ReadLine());
+
+		// int[,] arry = new int[row, col];
+
+		// for (int i = 0; i < row; i++)
+		// {
+		// 	for (int j = 0; j < col; j++)
+		// 	{
+		// 		Console.WriteLine("Enter the value:");
+		// 		arry[i, j] = int.Parse(Console.ReadLine());
+
+		// 	}
+		// }
+		// for (int i = 0; i < row; i++)
+		// {
+		// 	for (int j = 0; j < col; j++)
+		// 	{
+		// 		Console.WriteLine(arry[i, j]);
+		// 	}
+		// }
+
+
+		// string light = "green";
+		// string isbank = "yes";
+
+		// if (light == "red")
+		// {
+		// 	Console.WriteLine("You should be stop.");
+
+		// }
+		// else if (light == "green")
+		// {
+		// 	if (isbank == "yes")
+		// 	{
+		// 		Console.WriteLine("you have to turn left");
+		// 	}
+		// 	else
+		// 	{
+		// 		Console.WriteLine("you have to turn right");
+		// 	}
+		// }
+		// else if (light == "yellow")
+		// {
+		// 	Console.WriteLine("you have to gon slow");
+		// }
+		// else
+		// {
+		// 	Console.WriteLine("system error!");
+		// 	}
+
+
+		Console.WriteLine("Enter the arry no:");
+		int arry = int.Parse(Console.ReadLine());
+
+		int[,] arr = new int[0, 0];
+
+		for (int i = 0; i < arry; i++)
+		{
+			for (int j = 0; j < arry; j++)
+			{
+				Console.WriteLine("value of colum:"+ i + j);
+
+			}
+		}
+		for (int i = 0; i < arry; i++)
+		{
+			for (int j = 0; j < arry; j++)
+			{
+				Console.WriteLine(arr[i,j]);
+			}
+		}
+	}
+}
+		
+			
+			
+	
+
+
+	
+	
