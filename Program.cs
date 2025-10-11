@@ -1416,25 +1416,7 @@ class Program
 }
 
 
-using System;
 
-class Program
-{
-	static void Main(string[] args)
-	{
-		string n = "Rh";
-		string m = "Saimon";
-		// Console.WriteLine($"My full name is: {n} {m}");
-
-		string s = n + m;
-		Console.WriteLine(s.Substring(5,2));
-
-		// int charpos = s.IndexOf("i");
-		//  Console.WriteLine(charpos);
-
-
-		}
-}*/
 
 using System;
 public class HelloWorld
@@ -1517,10 +1499,23 @@ public class HelloWorld
 			}
 		}
 	}
+}*/
+			
+using System;
+
+class Program
+{
+	static void Main(string[] args)
+	{
+		string[] name = { " SAimon", "Sakib", "Salman", "Rakib", "Sagor" };
+		Console.WriteLine(name);
+
+
+		}
 }
-		
-			
-			
+
+
+
 	
 
 
